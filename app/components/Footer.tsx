@@ -19,10 +19,11 @@ const Footer = () => {
           id="Email"
           name="Email"
         />
-        <label className=" mt-[27px] shrink-0 " htmlFor="Pasword">
-          Password
+        <label className=" mt-[27px] shrink-0 " htmlFor="Pasword"></label>
+        Password
+        <div className="w-[395px] relative">
           <svg
-            className="absolute left-[337px] mt-[43px]"
+            className="absolute  right-0 mt-[42px] mr-[49px] "
             width="25"
             height="20"
             viewBox="0 0 25 20"
@@ -40,7 +41,7 @@ const Footer = () => {
             id="Pasword"
             name="Pasword"
           ></input>
-        </label>
+        </div>
       </div>
       <div className="w-full flex justify-end mt-[14px]">
         {" "}
