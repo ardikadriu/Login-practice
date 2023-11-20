@@ -43,9 +43,10 @@ const Footer = () => {
         </label>
       </div>
       <div className="w-full flex justify-end mt-[14px]">
-        <a href="">
-          <h2 className="leading-normal mr-[29px]">Forgot your password?</h2>
-        </a>
+        {" "}
+        <h2 className="leading-normal mr-[29px] hover:cursor-pointer">
+          Forgot your password?
+        </h2>
       </div>
       <button className="w-[396px] h-[83px] bg-[#FE522E] text-white type-submite mt-[37px] ml-[17px] rounded-[20px] ">
         <h2 className="font-semibold">LOGIN</h2>
